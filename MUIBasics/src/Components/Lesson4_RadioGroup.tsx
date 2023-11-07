@@ -6,12 +6,24 @@ import {
   FormControlLabel,
   FormHelperText,
 } from "@mui/material";
+import { useState } from "react";
 
 const Lesson4_RadioGroup = () => {
+  const [value, setValue] = useState("");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setValue(e.target.value); //bu uzun yöntemidir, kısa yöntem olarak onchange içinde tek satırda da halledilebilirdi
+  };
+
   return (
     <FormControl>
       <FormLabel>Salary Expectation</FormLabel>
-      <RadioGroup row>
+      <RadioGroup
+        row
+        name="expected-salary"
+        value={value}
+        onChange={handleChange}
+      >
         {/* label gösterilen kisim,  value => secildiginde tuttu değer*/}
         <FormControlLabel
           label="2000$"
@@ -30,6 +42,7 @@ const Lesson4_RadioGroup = () => {
           control={<Radio color="warning" />}
         />
       </RadioGroup>
+      <FormHelperText>Secim yapiniz</FormHelperText>
     </FormControl>
   );
 };
