@@ -4,6 +4,8 @@ import Lesson2_Button from "./Components/Lesson2_Button";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
 import Lesson5_Select from "./Components/Lesson5_Select";
+import Lesson6_MultipleSelect from "./Components/Lesson6_MultipleSelect";
+import Lesson7_Checkbox from "./Components/Lesson7_Checkbox";
 import RadioExample from "./Components/RadioExample";
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
       {/* <Lesson3_TextField/> */}
       {/* <Lesson4_RadioGroup/> */}
       {/* <RadioExample/> */}
-      <Lesson5_Select />
+      {/* <Lesson5_Select /> */}
+      {/* <Lesson6_MultipleSelect/> */}
+      <Lesson7_Checkbox/>
     </div>
   );
 }
