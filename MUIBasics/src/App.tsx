@@ -6,6 +6,7 @@ import Lesson13_Card from "./Components/Lesson13_Card";
 import Lesson14_Accordion from "./Components/Lesson14_Accordion";
 import Lesson15_AppBar from "./Components/Lesson15_AppBar";
 import Lesson16_ImageList from "./Components/Lesson16_ImageList";
+import Lesson17_Paper from "./Components/Lesson17_Paper";
 import Lesson1_Typography from "./Components/Lesson1_Typography";
 import Lesson2_Button from "./Components/Lesson2_Button";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
@@ -36,7 +37,8 @@ function App() {
       {/* <Lesson13_Card/> */}
       {/* <Lesson14_Accordion/> */}
       {/* <Lesson15_AppBar/> */}
-      <Lesson16_ImageList/>
+      {/* <Lesson16_ImageList/> */}
+      <Lesson17_Paper/>
     </div>
   );
 }

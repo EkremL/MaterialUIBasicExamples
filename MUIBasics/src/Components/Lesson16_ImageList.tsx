@@ -9,31 +9,45 @@ import {
 const Lesson16_ImageList = () => {
   return (
     <Stack>
-    <ImageList sx={{width:"500px",height:"450px"}} cols={3} rowHeight={164}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          {/* lazy loading */}
-          <img src={item.img} loading="lazy" />
-          <ImageListItemBar title={item.title}/>
-        </ImageListItem>
-      ))}
-    </ImageList>
-    <ImageList sx={{width:"500px",height:"450px"}} variant="woven" cols={3} rowHeight={164}>
-    {itemData.map((item) => (
-      <ImageListItem key={item.img}>
-        {/* lazy loading */}
-        <img src={item.img} loading="lazy" />
-      </ImageListItem>
-    ))}
-  </ImageList>
-  <ImageList sx={{width:"500px",height:"450px"}} variant="masonry" cols={3} rowHeight={164}>
-    {itemData.map((item) => (
-      <ImageListItem key={item.img}>
-        {/* lazy loading */}
-        <img src={item.img} loading="lazy" />
-      </ImageListItem>
-    ))}
-  </ImageList>
+      <ImageList
+        sx={{ width: "500px", height: "450px" }}
+        cols={3}
+        rowHeight={164}
+      >
+        {itemData.map((item) => (
+          <ImageListItem key={item.img}>
+            {/* lazy loading */}
+            <img src={item.img} loading="lazy" />
+            <ImageListItemBar title={item.title} />
+          </ImageListItem>
+        ))}
+      </ImageList>
+      <ImageList
+        sx={{ width: "500px", height: "450px" }}
+        variant="woven"
+        cols={3}
+        rowHeight={164}
+      >
+        {itemData.map((item) => (
+          <ImageListItem key={item.img}>
+            {/* lazy loading */}
+            <img src={item.img} loading="lazy" />
+          </ImageListItem>
+        ))}
+      </ImageList>
+      <ImageList
+        sx={{ width: "500px", height: "450px" }}
+        variant="masonry"
+        cols={3}
+        rowHeight={164}
+      >
+        {itemData.map((item) => (
+          <ImageListItem key={item.img}>
+            {/* lazy loading */}
+            <img src={item.img} loading="lazy" />
+          </ImageListItem>
+        ))}
+      </ImageList>
     </Stack>
   );
 };
