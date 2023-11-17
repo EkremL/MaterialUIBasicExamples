@@ -11,6 +11,8 @@ import Lesson18_Link from "./Components/Lesson18_Link";
 import Lesson19_BreadCrumbs from "./Components/Lesson19_BreadCrumbs";
 import Lesson1_Typography from "./Components/Lesson1_Typography";
 import Lesson20_Drawer from "./Components/Lesson20_Drawer";
+import Lesson21_Badge from "./Components/Lesson21_Badge";
+import Lesson22_SpeedDial from "./Components/Lesson22_SpeedDial";
 import Lesson2_Button from "./Components/Lesson2_Button";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
@@ -44,7 +46,9 @@ function App() {
       {/* <Lesson17_Paper/> */}
       {/* <Lesson18_Link/> */}
       {/* <Lesson19_BreadCrumbs /> */}
-      <Lesson20_Drawer/>
+      {/* <Lesson20_Drawer/> */}
+      {/* <Lesson21_Badge/> */}
+      <Lesson22_SpeedDial/>
     </div>
   );
 }
