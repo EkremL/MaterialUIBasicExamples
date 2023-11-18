@@ -25,6 +25,8 @@ import Lesson30_Progress from "./Components/Lesson30_Progress";
 import Lesson31_Skeleton from "./Components/Lesson31_Skeleton";
 import Lesson32_LoadingButton from "./Components/Lesson32_LoadingButton";
 import Lesson33_Table from "./Components/Lesson33_Table";
+import Lesson34_DateTimePicker from "./Components/Lesson34_DateTimePicker";
+import Lesson35_Tabs from "./Components/Lesson35_Tabs";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
 import Lesson5_Select from "./Components/Lesson5_Select";
@@ -70,7 +72,9 @@ function App() {
       {/* <Lesson30_Progress/> */}
       {/* <Lesson31_Skeleton/> */}
       {/* <Lesson32_LoadingButton/> */}
-      <Lesson33_Table/>
+      {/* <Lesson33_Table/> */}
+      {/* <Lesson34_DateTimePicker/> */}
+      <Lesson35_Tabs/>
     </div>
   );
 }
