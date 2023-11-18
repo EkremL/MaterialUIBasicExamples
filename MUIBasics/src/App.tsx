@@ -21,6 +21,10 @@ import Lesson27_Alert from "./Components/Lesson27_Alert";
 import Lesson28_Dialog from "./Components/Lesson28_Dialog";
 import Lesson29_SnackBar from "./Components/Lesson29_SnackBar";
 import Lesson2_Button from "./Components/Lesson2_Button";
+import Lesson30_Progress from "./Components/Lesson30_Progress";
+import Lesson31_Skeleton from "./Components/Lesson31_Skeleton";
+import Lesson32_LoadingButton from "./Components/Lesson32_LoadingButton";
+import Lesson33_Table from "./Components/Lesson33_Table";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
 import Lesson5_Select from "./Components/Lesson5_Select";
@@ -62,7 +66,11 @@ function App() {
       {/* <Lesson26_Tooltip/> */}
       {/* <Lesson27_Alert/> */}
       {/* <Lesson28_Dialog/> */}
-      <Lesson29_SnackBar/>
+      {/* <Lesson29_SnackBar/> */}
+      {/* <Lesson30_Progress/> */}
+      {/* <Lesson31_Skeleton/> */}
+      {/* <Lesson32_LoadingButton/> */}
+      <Lesson33_Table/>
     </div>
   );
 }
