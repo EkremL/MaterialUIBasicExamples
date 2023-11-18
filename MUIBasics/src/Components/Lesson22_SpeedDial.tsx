@@ -6,7 +6,10 @@ import EditIcon from "@mui/icons-material/Edit";
 
 const Lesson22_SpeedDial = () => {
   return (
-    <SpeedDial ariaLabel="Navigation" icon={<SpeedDialIcon openIcon={<EditIcon/>}/>}> 
+    <SpeedDial
+      ariaLabel="Navigation"
+      icon={<SpeedDialIcon openIcon={<EditIcon />} />}
+    >
       <SpeedDialAction icon={<CopyIcon />} tooltipTitle="Copy" tooltipOpen />
       <SpeedDialAction icon={<PrintIcon />} tooltipTitle="Print" tooltipOpen />
       <SpeedDialAction icon={<ShareIcon />} tooltipTitle="Share" tooltipOpen />

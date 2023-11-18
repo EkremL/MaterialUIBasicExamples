@@ -13,6 +13,13 @@ import Lesson1_Typography from "./Components/Lesson1_Typography";
 import Lesson20_Drawer from "./Components/Lesson20_Drawer";
 import Lesson21_Badge from "./Components/Lesson21_Badge";
 import Lesson22_SpeedDial from "./Components/Lesson22_SpeedDial";
+import Lesson23_BottomNavigation from "./Components/Lesson23_BottomNavigation";
+import Lesson24_Avatar from "./Components/Lesson24_Avatar";
+import Lesson25_List from "./Components/Lesson25_List";
+import Lesson26_Tooltip from "./Components/Lesson26_Tooltip";
+import Lesson27_Alert from "./Components/Lesson27_Alert";
+import Lesson28_Dialog from "./Components/Lesson28_Dialog";
+import Lesson29_SnackBar from "./Components/Lesson29_SnackBar";
 import Lesson2_Button from "./Components/Lesson2_Button";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
@@ -48,7 +55,14 @@ function App() {
       {/* <Lesson19_BreadCrumbs /> */}
       {/* <Lesson20_Drawer/> */}
       {/* <Lesson21_Badge/> */}
-      <Lesson22_SpeedDial/>
+      {/* <Lesson22_SpeedDial/> */}
+      {/* <Lesson23_BottomNavigation/> */}
+      {/* <Lesson24_Avatar/> */}
+      {/* <Lesson25_List/> */}
+      {/* <Lesson26_Tooltip/> */}
+      {/* <Lesson27_Alert/> */}
+      {/* <Lesson28_Dialog/> */}
+      <Lesson29_SnackBar/>
     </div>
   );
 }
