@@ -27,6 +27,8 @@ import Lesson32_LoadingButton from "./Components/Lesson32_LoadingButton";
 import Lesson33_Table from "./Components/Lesson33_Table";
 import Lesson34_DateTimePicker from "./Components/Lesson34_DateTimePicker";
 import Lesson35_Tabs from "./Components/Lesson35_Tabs";
+import Lesson36_Masonry from "./Components/Lesson36_Masonry";
+import Lesson37_TimeLine from "./Components/Lesson37_TimeLine";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
 import Lesson5_Select from "./Components/Lesson5_Select";
@@ -74,7 +76,9 @@ function App() {
       {/* <Lesson32_LoadingButton/> */}
       {/* <Lesson33_Table/> */}
       {/* <Lesson34_DateTimePicker/> */}
-      <Lesson35_Tabs/>
+      {/* <Lesson35_Tabs/> */}
+      {/* <Lesson36_Masonry/> */}
+      <Lesson37_TimeLine/>
     </div>
   );
 }
