@@ -29,6 +29,7 @@ import Lesson34_DateTimePicker from "./Components/Lesson34_DateTimePicker";
 import Lesson35_Tabs from "./Components/Lesson35_Tabs";
 import Lesson36_Masonry from "./Components/Lesson36_Masonry";
 import Lesson37_TimeLine from "./Components/Lesson37_TimeLine";
+import Lesson38_Customization from "./Components/Lesson38_Customization";
 import Lesson3_TextField from "./Components/Lesson3_TextField";
 import Lesson4_RadioGroup from "./Components/Lesson4_RadioGroup";
 import Lesson5_Select from "./Components/Lesson5_Select";
@@ -38,8 +39,61 @@ import Lesson8_MultipleCheckbox from "./Components/Lesson8_MultipleCheckbox";
 import Lesson9_AutoComplete from "./Components/Lesson9_AutoComplete";
 import RadioExample from "./Components/RadioExample";
 
+// import { createTheme, colors,ThemeProvider } from "@mui/material";
+// const theme = createTheme({
+//   palette: {
+//     secondary: {
+//       main: colors.brown[500],
+//     },
+//   },
+// });
+
 function App() {
   return (
+    //customize theme
+    // <ThemeProvider theme={theme}>
+    //   <div className="App">
+    //   {/* <Lesson1_Typography /> */}
+    //   {/* <Lesson2_Button /> */}
+    //   {/* <Lesson3_TextField/> */}
+    //   {/* <Lesson4_RadioGroup/> */}
+    //   {/* <RadioExample/> */}
+    //   {/* <Lesson5_Select /> */}
+    //   {/* <Lesson6_MultipleSelect/> */}
+    //   {/* <Lesson7_Checkbox/> */}
+    //   {/* <Lesson8_MultipleCheckbox/> */}
+    //   {/* <Lesson9_AutoComplete/> */}
+    //   {/* <Lesson10_Box/> */}
+    //   {/* <Lesson11_Stack/> */}
+    //   {/* <Lesson12_Grid/> */}
+    //   {/* <Lesson13_Card/> */}
+    //   {/* <Lesson14_Accordion/> */}
+    //   {/* <Lesson15_AppBar/> */}
+    //   {/* <Lesson16_ImageList/> */}
+    //   {/* <Lesson17_Paper/> */}
+    //   {/* <Lesson18_Link/> */}
+    //   {/* <Lesson19_BreadCrumbs /> */}
+    //   {/* <Lesson20_Drawer/> */}
+    //   {/* <Lesson21_Badge/> */}
+    //   {/* <Lesson22_SpeedDial/> */}
+    //   {/* <Lesson23_BottomNavigation/> */}
+    //   {/* <Lesson24_Avatar/> */}
+    //   {/* <Lesson25_List/> */}
+    //   {/* <Lesson26_Tooltip/> */}
+    //   {/* <Lesson27_Alert/> */}
+    //   {/* <Lesson28_Dialog/> */}
+    //   {/* <Lesson29_SnackBar/> */}
+    //   {/* <Lesson30_Progress/> */}
+    //   {/* <Lesson31_Skeleton/> */}
+    //   {/* <Lesson32_LoadingButton/> */}
+    //   {/* <Lesson33_Table/> */}
+    //   {/* <Lesson34_DateTimePicker/> */}
+    //   {/* <Lesson35_Tabs/> */}
+    //   {/* <Lesson36_Masonry/> */}
+    //   {/* <Lesson37_TimeLine/> */}
+    //   {/* <Lesson38_Customization /> */}
+    // </div>
+    // </ThemeProvider>
     <div className="App">
       {/* <Lesson1_Typography /> */}
       {/* <Lesson2_Button /> */}
@@ -78,7 +132,8 @@ function App() {
       {/* <Lesson34_DateTimePicker/> */}
       {/* <Lesson35_Tabs/> */}
       {/* <Lesson36_Masonry/> */}
-      <Lesson37_TimeLine/>
+      {/* <Lesson37_TimeLine/> */}
+      {/* <Lesson38_Customization /> */}
     </div>
   );
 }

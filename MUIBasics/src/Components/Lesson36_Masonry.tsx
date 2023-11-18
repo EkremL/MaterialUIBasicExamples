@@ -14,13 +14,11 @@ const Lesson36_Masonry = () => {
     <Masonry columns={3} spacing={5}>
       {heights.map((height, index) => (
         <Paper key={index}>
-          <Accordion sx={{minHeight:height}}>
-            <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
-                Accordion{index+1}
+          <Accordion sx={{ minHeight: height }}>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              Accordion{index + 1}
             </AccordionSummary>
-            <AccordionDetails>
-                My Content
-            </AccordionDetails>
+            <AccordionDetails>My Content</AccordionDetails>
           </Accordion>
         </Paper>
       ))}
